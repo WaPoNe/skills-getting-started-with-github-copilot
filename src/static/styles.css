@@ -132,6 +132,59 @@ button:hover {
   border: 1px solid #bee5eb;
 }
 
+.participants-section {
+  margin-top: 12px;
+  padding-top: 10px;
+  border-top: 1px solid #ddd;
+}
+
+.participants-list {
+  margin-top: 8px;
+  padding-left: 0;
+  list-style: none;
+  color: #444;
+}
+
+.participants-list li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 4px 0;
+}
+
+.participant-email {
+  word-break: break-word;
+}
+
+.participant-remove {
+  appearance: none;
+  border: none;
+  background: transparent;
+  color: #c62828;
+  cursor: pointer;
+  font-size: 18px;
+  line-height: 1;
+  padding: 2px 6px;
+  border-radius: 4px;
+  transition: background-color 0.2s;
+}
+
+.participant-remove:hover {
+  background-color: rgba(198, 40, 40, 0.1);
+}
+
+.participant-remove:focus-visible {
+  outline: 2px solid rgba(26, 35, 126, 0.6);
+  outline-offset: 2px;
+}
+
+.no-participants {
+  margin-top: 8px;
+  color: #666;
+  font-style: italic;
+}
+
 .hidden {
   display: none;
 }
